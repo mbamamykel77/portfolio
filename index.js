@@ -9,10 +9,9 @@ let sec1 = document.querySelector('.sec1')
 menuBar.addEventListener("click", ()=> {
   menuContent.classList.toggle("active");
   menuContent.style.width = "100%"
-  menuContent.style.position = 'relative'
+  menuContent.style.position = 'fixed'
   introSection.classList.toggle("active")
-  sec1.classList.toggle('active')
-  // sec1.style.position = 'relative'
+  // sec1.classList.toggle('active')
 })
 
 
